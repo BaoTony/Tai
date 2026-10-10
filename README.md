@@ -27,6 +27,40 @@
 
 鼠标双击图标进入程序主界面，右击显示菜单。
 
+## 技术架构
+
+| 分类 | 选型 |
+|------|------|
+| 运行时 / UI | .NET Framework 4.8 · WPF |
+| DI | Microsoft.Extensions.DependencyInjection 6.0 |
+| ORM | Entity Framework 6 Code First |
+| 数据库 | SQLite |
+| WebSocket | WebSocketSharp |
+| Excel 导出 | NPOI 2.5.6 · CsvHelper 29.0 |
+
+### 解决方案结构
+
+```
+Tai/
+├── Tai.sln                    # 解决方案
+├── docs/                      # 项目文档
+├── Core/                      # 核心层（服务接口、实现、数据模型、工具库）
+├── UI/                        # WPF 主程序（Views / ViewModels / Controls / Themes）
+├── TaiBug/                    # 崩溃弹窗独立程序
+└── Updater/                   # 自动更新独立程序
+```
+
+### 文档索引
+
+| 文档 | 说明 |
+|------|------|
+| [docs/01_PROJECT_OVERVIEW.md](docs/01_PROJECT_OVERVIEW.md) | 项目架构概览：分层、服务清单、DI注册、数据库ER关系 |
+| [docs/02_DATA_FLOW.md](docs/02_DATA_FLOW.md) | 完整数据链路分析：10条链路详解 + 分步骤学习指南（含代码文件定位） |
+| [docs/03_QUICKSTART.md](docs/03_QUICKSTART.md) | 开发者快速入门：环境搭建、编译运行、调试技巧、常见问题排查 |
+| [docs/04_UI_CONTROLS_GUIDE.md](docs/04_UI_CONTROLS_GUIDE.md) | 自定义控件与主题开发指南：20+控件体系、图表系统、主题切换、页面导航 |
+
+---
+
 ## 了解更多
 
 #### 为什么使用 Tai？
