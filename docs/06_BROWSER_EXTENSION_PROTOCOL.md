@@ -2,7 +2,6 @@
 
 > 📁 目标读者：需要修改浏览器扩展、对接 WebSocket 服务或新增浏览器支持的开发者
 > 🎯 目标：完整描述 Tai 客户端与浏览器扩展之间的通信协议、数据格式与交互时序
-> 📄 本文档遵循 [PlcDataStudio 文档规范]组织
 > 关联文档：服务端数据入库链路见 [02_DATA_FLOW.md](02_DATA_FLOW.md)，URL 过滤配置见 [01_PROJECT_OVERVIEW.md](01_PROJECT_OVERVIEW.md)
 
 ---

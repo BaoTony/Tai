@@ -2,7 +2,6 @@
 
 > 📁 目标读者：需要理解或修改 Tai 系统底层交互逻辑的开发者
 > 🎯 目标：说清楚 Tai 用了哪些 Win32 API、为什么用、在哪里用、有哪些坑
-> 📄 本文档遵循 [PlcDataStudio 文档规范]组织
 > 关联文档：数据链路见 [02_DATA_FLOW.md](02_DATA_FLOW.md)，UI 控件见 [04_UI_CONTROLS_GUIDE.md](04_UI_CONTROLS_GUIDE.md)
 
 ---

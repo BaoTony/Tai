@@ -13,7 +13,7 @@
 
 #### 使用
 
-1. 在 [releases](https://github.com/Planshit/Tai/releases) 中可以下载已经编译好的 exe 可执行文件压缩包。建议优选选择标记有 `Latest` 的版本，划到下方的 `Assets` 找到 `Taix.x.x.x.zip` 点击下载；
+1. 在 [releases](https://github.com/Planshit/Tai/releases) 中可以下载已经编译好的 exe 可执行文件压缩包。建议优先选择标记有 `Latest` 的版本，划到下方的 `Assets` 找到 `Taix.x.x.x.zip` 点击下载；
 2. 下载压缩包后解压到合适的位置（建议不要解压到桌面、系统盘），进入解压后的文件夹内，找到 `👻Tai.exe` ，启动程序，成功启动后你将在状态栏看到 👻 图标；
 3. 使用 `网站浏览统计` 功能需要安装相应的浏览器拓展并且在 设置 > 常规 > 功能中启用。[下载安装浏览器插件说明](https://github.com/Planshit/Tai/discussions/279);
 4. 请以管理员身份运行 Tai ，否则无法统计部分软件。
@@ -58,6 +58,17 @@ Tai/
 | [docs/02_DATA_FLOW.md](docs/02_DATA_FLOW.md) | 完整数据链路分析：10条链路详解 + 分步骤学习指南（含代码文件定位） |
 | [docs/03_QUICKSTART.md](docs/03_QUICKSTART.md) | 开发者快速入门：环境搭建、编译运行、调试技巧、常见问题排查 |
 | [docs/04_UI_CONTROLS_GUIDE.md](docs/04_UI_CONTROLS_GUIDE.md) | 自定义控件与主题开发指南：20+控件体系、图表系统、主题切换、页面导航 |
+| [docs/05_WIN32_API_REFERENCE.md](docs/05_WIN32_API_REFERENCE.md) | Win32 API 参考手册：前台监控、进程查询、UWP识别、全局钩子、调用关系矩阵 |
+| [docs/06_BROWSER_EXTENSION_PROTOCOL.md](docs/06_BROWSER_EXTENSION_PROTOCOL.md) | 浏览器扩展协议：WebSocket消息格式、扩展端机制、服务端处理链、安装调试 |
+
+### 参与开发
+
+```
+git clone https://github.com/BaoTony/Tai.git
+# 使用 Visual Studio 2022/2019 打开 Tai.sln，还原 NuGet 后 F5 运行
+```
+
+开发前请先阅读 [开发者快速入门](docs/03_QUICKSTART.md)（环境要求：.NET Framework 4.8 + .NET 桌面开发工作负载），再按需查阅上方文档索引。浏览器扩展源码位于 [WebExtensions/Chrome/](WebExtensions/Chrome/)，协议说明见 [06_BROWSER_EXTENSION_PROTOCOL.md](docs/06_BROWSER_EXTENSION_PROTOCOL.md)。
 
 ---
 
